@@ -1,83 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>kantiankant</title>
-  <style>
-    body {
-      background: #fff;
-      color: #111;
-      font-family: monospace;
-      font-size: 14px;
-      line-height: 1.6;
-      max-width: 600px;
-      margin: 4rem auto;
-      padding: 0 1.5rem;
-    }
-
-    a {
-      color: #111;
-    }
-
-    a:hover {
-      color: #888;
-    }
-
-    h2 {
-      margin: 2rem 0 0.5rem;
-      font-size: 14px;
-    }
-
-    hr {
-      border: none;
-      border-top: 1px solid #ddd;
-      margin: 2rem 0;
-    }
-
-    .image-placeholder {
-      width: 100%;
-      height: 180px;
-      background: #f5f5f5;
-      margin-bottom: 1.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #aaa;
-      font-size: 12px;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    ul li::before {
-      content: "- ";
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+  <header>
+    <img src="1.jpg" alt="header" class="hero-img">
+  </header>
 
- <img src="1.jpg" alt="header image" style="width: 100%; height: auto; margin-bottom: 1.5rem;">
+  <main>
+    <p>hi, welcome to my website. i write code, draw yuri of fictional tank girls, and do stupid shit in general.</p>
 
-  <p>hi, welcome to my website. i write code, draw yuri of fictional tank girls, and do stupid shit in general.</p>
+    <nav>
+      <ul>
+        <li><a href="screenshots/">screenshots/</a></li>
+        <li><a href="https://github.com">git/</a></li>
+      </ul>
+    </nav>
 
-  <ul>
-    <li><a href="screenshots/">screenshots/</a></li>
-    <li><a href="https://github.com/kantiankant">git/</a></li>
-  </ul>
-
-  <hr>
-
-  <h2>my stuff</h2>
-  <ul>
-    <li>terminal: <a href="https://codeberg.org/dnkl/foot">foot</a></li>
-    <li>compositor: <a href="https://github.com/kantiankant/slide-wl">slide-wl</a></li>
-    <li>shell: <a href="https://www.gnu.org/software/bash/manual/">bash</a></li>
-  </ul>
+    <section>
+      <h2>my stuff</h2>
+      <ul class="dot-list">
+        <li>terminal: <a href="https://codeberg.org">foot</a></li>
+        <li>compositor: <a href="https://github.com/slide-wl">slide-wl</a></li>
+        <li>shell: <a href="https://gnu.org">bash</a></li>
+      </ul>
+    </section>
+  </main>
 
 </body>
 </html>

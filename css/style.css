@@ -1,0 +1,52 @@
+
+/* Base Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #fff;
+  color: #111;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+/* Links */
+a { color: #111; text-decoration: underline; }
+a:hover { background: #111; color: #fff; text-decoration: none; }
+
+/* Images */
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 2rem;
+  filter: grayscale(100%); /* Optional: makes the vibe very unixy */
+}
+
+/* Typography */
+h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+p { margin-bottom: 1.5rem; }
+
+/* Lists */
+ul { list-style: none; margin-top: 1rem; }
+
+.dot-list li::before {
+  content: ":: ";
+  color: #888;
+}
+
+nav ul li::before {
+  content: "-> ";
+  color: #111;
+}
