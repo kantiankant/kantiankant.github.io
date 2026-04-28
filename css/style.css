@@ -50,3 +50,26 @@ nav ul li::before {
   content: "-> ";
   color: #111;
 }
+
+
+/* Gallery Styling */
+.gallery {
+  margin-top: 2rem;
+}
+
+.shot {
+  margin-bottom: 3rem; /* Spacing between different posts */
+}
+
+.shot img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.shot figcaption {
+  font-size: 12px;
+  color: #666;
+  text-align: left;
+}
