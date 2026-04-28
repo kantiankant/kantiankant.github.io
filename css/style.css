@@ -17,15 +17,15 @@ body {
 a { color: #111; text-decoration: underline; }
 a:hover { background: #111; color: #fff; text-decoration: none; }
 
+
 /* Images */
 .hero-img {
   width: 100%;
   height: auto;
   display: block;
   margin-bottom: 2rem;
-  filter: grayscale(100%); /* Optional: makes the vibe very unixy */
+  /* Grayscale filter removed to keep original colors */
 }
-
 /* Typography */
 h2 {
   font-size: 14px;
